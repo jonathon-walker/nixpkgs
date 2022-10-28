@@ -1,0 +1,7 @@
+[
+    "@microsoft/rush",
+    "@vue/cli",
+    "gitlab-ci-local"
+    "iterm2-tab-set",
+    "speccy",
+]
