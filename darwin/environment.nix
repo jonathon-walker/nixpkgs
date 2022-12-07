@@ -1,1 +1,5 @@
-{ environment.variables = { EDITOR = "nvim"; }; }
+{ pkgs, ... }: {
+  environment.variables = { EDITOR = "nvim"; };
+
+  environment.systemPackages = with pkgs; [ clamav ];
+}

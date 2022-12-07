@@ -7,6 +7,7 @@
     shellAliases = {
       k = "kubectl";
       rg = "rg --hidden";
+      tzsyd = "sudo systemsetup -settimezone Australia/Sydney";
     };
 
     plugins = with pkgs; [
@@ -19,6 +20,16 @@
         name = "powerlevel10k-config";
         src = lib.cleanSource ../configs;
         file = "p10k.zsh";
+      }
+      {
+        name = "zsh-nix-shell";
+        file = "nix-shell.plugin.zsh";
+        src = pkgs.fetchFromGitHub {
+          owner = "chisui";
+          repo = "zsh-nix-shell";
+          rev = "v0.5.0";
+          sha256 = "0za4aiwwrlawnia4f29msk822rj9bgcygw6a8a6iikiwzjjz0g91";
+        };
       }
     ];
 

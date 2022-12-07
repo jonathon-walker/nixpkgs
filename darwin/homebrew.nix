@@ -46,5 +46,13 @@
 
   # For cli packages that aren't currently available for macOS in `nixpkgs`.Packages should be
   # installed in `../home/packages.nix` whenever possible.
-  homebrew.brews = [ "filebeat-full" "itermocil" "pyenv" "tfswitch" "tgswitch" ];
+  homebrew.brews = [
+    "filebeat-full"
+    "gnu-sed"
+    "itermocil"
+    "python@3.10"
+    "pyenv"
+    "tfswitch"
+    "tgswitch"
+  ];
 }

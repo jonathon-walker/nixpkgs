@@ -11,13 +11,14 @@
     curl
     docker-compose
     envsubst
-    gnused
     google-cloud-sdk
     goreleaser
     grpcurl
     jq
+    jre
     kubectl
     kubectx
+    htop
     kubernetes-helm
     kubetail
     libxml2

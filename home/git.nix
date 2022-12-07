@@ -26,7 +26,10 @@
   programs.git.userName = config.home.userInfo.fullName;
 
   # Enhanced diffs
-  programs.git.delta.enable = true;
+  programs.git.delta = {
+    enable = true;
+    options.side-by-side = true;
+  };
 
   programs.git.aliases = { st = "status -sb"; };
 }
