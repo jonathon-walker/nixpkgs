@@ -11,6 +11,7 @@
     curl
     docker-compose
     envsubst
+    gnumake
     google-cloud-sdk
     goreleaser
     grpcurl
