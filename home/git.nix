@@ -32,4 +32,6 @@
   };
 
   programs.git.aliases = { st = "status -sb"; };
+
+  programs.git.lfs.enable = true;
 }
