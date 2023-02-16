@@ -38,6 +38,7 @@
     "slack"
     "spotify"
     "stats"
+    "tailscale"
     "visual-studio-code"
     "vlc"
     "whatsapp"
@@ -47,6 +48,7 @@
   # For cli packages that aren't currently available for macOS in `nixpkgs`.Packages should be
   # installed in `../home/packages.nix` whenever possible.
   homebrew.brews = [
+    "azure-cli"
     "filebeat-full"
     "gnu-sed"
     "itermocil"

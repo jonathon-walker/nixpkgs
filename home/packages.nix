@@ -4,13 +4,16 @@
   home.sessionVariables = { EDITOR = "nvim"; };
 
   home.packages = with pkgs; [
+    amass
     awscli
     bat
     buf
     comma
+    coreutils
     curl
     docker-compose
     envsubst
+    gh
     git-filter-repo
     gnumake
     google-cloud-sdk
